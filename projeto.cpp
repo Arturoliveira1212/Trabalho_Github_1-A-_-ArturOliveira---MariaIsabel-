@@ -1,4 +1,6 @@
 #include <iostream>
+#include<string.h>
+using namespace std;
 
 
 /*
@@ -16,6 +18,7 @@ int contaLetras(char letra, string texto)
         }
         i++;
     }
+    return j;
     /*feito*/
 }
 
@@ -49,6 +52,7 @@ int contaPalavras(string palavra, string texto)
         }
         i++;
     }
+    return j;
 }
 
 /*
@@ -56,12 +60,31 @@ int contaPalavras(string palavra, string texto)
 */
 void substituirPalavras(string palavra1, string palavra2, string texto)
 {
+	int i;
+	for(i=0;i<texto.length(); i++)
+	{
+		if(palavra1==texto[i])
+		{
+			palavra2=palavra1;
+		}
+	}
+	
 }
 
 int main(){
 
+	string texto, palavra2;
+	char letra2;
 	cout << "Entre com o texto para fazer o teste:";
-
+	getline(cin, texto);
+	cout<<"Quantidade de letras: "<<contaLetras;
+	cout<<"Quantidade de palavras: "<<contaPalavras;
+	cout<<"substituir palavra: ";
+	cin>>palavra2;
+	cout<<substituirPalavra;
+	cout<<"substituir letra: ";
+	cin>>letra2;
+	cout<<substituirLetra;
 
 
 

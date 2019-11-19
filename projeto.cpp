@@ -39,6 +39,16 @@ void substituirLetra(char letra1,char letra2, string texto)
 */
 int contaPalavras(string palavra, string texto)
 {
+    int i=0;
+    int j=0;
+    while(i<texto.length())
+    {
+        if(palavra==texto[i])
+        {
+            j++;
+        }
+        i++;
+    }
 }
 
 /*

@@ -16,6 +16,7 @@ int contaLetras(char letra, string texto)
         }
         i++;
     }
+    /*feito*/
 }
 
 /*

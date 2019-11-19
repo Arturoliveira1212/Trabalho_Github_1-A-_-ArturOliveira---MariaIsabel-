@@ -24,6 +24,14 @@ int contaLetras(char letra, string texto)
 */
 void substituirLetra(char letra1,char letra2, string texto)
 {
+	int i;
+	for(i=0;i<texto.length(); i++)
+	{
+		if(letra1==texto[i])
+		{
+			letra2=letra1;
+		}
+	}
 }
 
 /*
